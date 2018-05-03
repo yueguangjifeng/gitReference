@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Git Reference</title>
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/reset.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/text.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/grid.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/layout.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/nav.css" media="screen" />
+		<!--[if IE 6]><link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/ie6.css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/ie.css" media="screen" /><![endif]-->
+		<script type="text/javascript" src="{{ site.baseurl }}/js/jquery-1.4.1.min.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/action.js"></script>
+	</head>
+	<body>
+    <div class="container_12">
+
+			<div class="grid_12">
+				<span id="branding">Git Reference</span>
+      </div>
+
+			<div class="grid_12">
+				<ul id="menu">
+					<li><a id="menu_home" href="{{ site.baseurl }}/index.html">Reference</a></li>
+          <!-- <li><a id="menu_cookbook" href="/cookbook.html">Cookbook</a></li> -->
+					<li><a id="menu_about" href="{{ site.baseurl }}/about.html">About</a></li>
+					<li>&#167;</li>
+					<li><a href="https://github.com/git/git-reference">Site Source</a></li>
+        </ul>
+        <br/>
+        &nbsp;
+			</div>
+
+			<div class="grid_2" id="reflist">
+          <div class="block">
+            <h3><a href="{{ site.baseurl }}/creating">Getting and Creating Projects</a></h3>
+            <ul>
+              <li><a href="{{ site.baseurl }}/creating/#init">init</a></li>
+              <li><a href="{{ site.baseurl }}/creating/#clone">clone</a></li>
+            </ul>
+					</div>
+
+          <div class="block">
+            <h3><a href="{{ site.baseurl }}/basic">Basic Snapshotting</a></h3>
+            <ul>
+              <li><a href="{{ site.baseurl }}/basic/#add">add</a></li>
+              <li><a href="{{ site.baseurl }}/basic/#status">status</a></li>
+              <li><a href="{{ site.baseurl }}/basic/#diff">diff</a></li>
+              <li><a href="{{ site.baseurl }}/basic/#commit">commit</a></li>
+              <li><a href="{{ site.baseurl }}/basic/#reset">reset</a></li>
+              <li><a href="{{ site.baseurl }}/basic/#rm-mv">rm, mv</a></li>
+              <li><a href="{{ site.baseurl }}/basic/#stash">stash</a></li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <h3><a href="{{ site.baseurl }}/branching">Branching and Merging</a></h3>
+            <ul>
+              <li><a href="{{ site.baseurl }}/branching/#branch">branch</a></li>
+              <li><a href="{{ site.baseurl }}/branching/#branch">checkout</a></li>
+              <li><a href="{{ site.baseurl }}/branching/#merge">merge</a></li>
+              <li><a href="{{ site.baseurl }}/branching/#log">log</a></li>
+              <li><a href="{{ site.baseurl }}/branching/#tag">tag</a></li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <h3><a href="{{ site.baseurl }}/remotes">Sharing and Updating Projects</a></h3>
+            <ul>
+              <li><a href="{{ site.baseurl }}/remotes/#remote">remote</a></li>
+              <li><a href="{{ site.baseurl }}/remotes/#fetch">fetch, pull</a></li>
+              <li><a href="{{ site.baseurl }}/remotes/#push">push</a></li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <h3><a href="{{ site.baseurl }}/inspect">Inspection and Comparison</a></h3>
+            <ul>
+              <li><a href="{{ site.baseurl }}/inspect/#log">log</a></li>
+              <li><a href="{{ site.baseurl }}/inspect/#diff">diff</a></li>
+            </ul>
+          </div>
+
+          <!--
+          <div class="block">
+            <h3><a href="fixing">Fixing and Changing History</a></h3>
+            <ul>
+              <li><a href="fixing/rebase.html">rebase</a></li>
+              <li><a href="fixing/revert.html">revert</a></li>
+              <li><a href="fixing/checkout.html">checkout</a></li>
+              <li><a href="fixing/reset.html">reset</a></li>
+              <li><a href="fixing/cherry-pick.html">cherry-pick</a></li>
+            </ul>
+          </div>
+          -->
+			</div>
+
+      <div class="grid_10 home_box" id="content_box">
+        {{ content }}
+      </div>
+
+			<div class="clear"></div>
+		</div>
+  </body>
+</html>
